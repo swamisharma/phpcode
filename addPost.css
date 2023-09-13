@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    margin: 1.5% 0;
+    color: aliceblue;
+}
+
+form {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    color: aliceblue;
+    margin-top: 1.5%;
+    font-size: 20px;
+}
+form input {
+    padding: 0.5%;
+    font-size: 18px;
+    margin-bottom: 0.5%;
+}
+
+form button {
+    padding: 0.5%;
+    font-size: 18px;
+}
+
+.background {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
